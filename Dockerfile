@@ -28,4 +28,3 @@ ENV NODE_ENV=production
 
 # Команда для запуска вашего бота
 CMD ["node", "bot.js"]
-```ignore
