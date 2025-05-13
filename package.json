@@ -1,0 +1,20 @@
+{
+  "name": "telegram-list-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for managing lists and teams",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "list"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}

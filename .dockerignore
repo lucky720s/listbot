@@ -1,0 +1,40 @@
+# .dockerignore
+# Исключаем ненужные файлы и папки из Docker-контекста и образа
+
+# Локальные зависимости
+node_modules
+
+# Логи npm
+npm-debug.log
+yarn-error.log
+
+# Файлы среды выполнения (не должны попадать в образ)
+.env
+*.env
+
+# Системные файлы Git
+.git
+.gitignore
+
+# Файлы Docker (не нужны внутри образа)
+Dockerfile
+docker-compose.yml
+# (если будете использовать docker-compose в будущем)
+
+# Локальные файлы разработки и IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.log
+logs/
+
+# Файлы операционной системы
+Thumbs.db
+.DS_Store
+
+# Документация и другие ненужные в образе файлы
+README.md
+LICENSE
+docs/
+examples/
